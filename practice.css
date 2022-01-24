@@ -1,0 +1,89 @@
+html
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header
+{
+display: flex; /*bring the content in horizontal*/
+justify-content: space-between;/*use with display property*/
+margin: 0px 10px;
+}
+
+
+header h1
+{
+    font-weight: 400;  /*change boldness of text*/
+    position: relative; /*change the position of text ,use along with left right top bottiom*/ 
+    left: 0.5rem;/*use with position property*/
+}
+
+
+li
+{
+list-style: none;
+font-size: 1.5rem;
+}
+
+
+ul
+{
+display: flex;
+justify-content: space-between; /*use with display */
+position: relative; 
+top: 0.5rem;
+right: 1rem;
+width: 20rem;
+
+}
+
+a
+{
+    text-decoration: none; /*remove under lines*/
+    color: black;
+}
+
+a:hover   /*text turn into red when when cursor come on it*/ 
+{
+color: red;
+}
+
+
+.show_img
+{
+    width: 95vw;
+    margin: 1rem;
+}
+
+article
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container
+{
+    text-align: center;
+    margin-right: 2rem;
+    position: relative;
+    top: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+h2
+{
+    font-weight: 600;
+}
+
+footer
+{
+  background-color: black;
+  color: white; /*for text color change*/
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
